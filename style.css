@@ -49,19 +49,28 @@ h3{
     font-size: 2vmax;
     font-family: 'Delicious Handrawn', cursive;
     transition: all 0.5s;
+    color: white;
    
 
 }
 h3:hover{
-    color: white;
+    color: black;
 }
-h3:hover h1{
-    color: aqua;
+#bottom-line{
+    position: fixed;
+    bottom: 2%;
+    left: 50%;
+    color: white;
+    margin-left: -8vmax;
+    font-family: 'Unica One', cursive;
+    
 }
 
-@media (max-600px) {
+@media (max-width: 600px) {
     h3{
-        color: aquamarine;
+        font-size: 5vmax;
+        text-shadow: 1px 1px 2px black;
     }
+   
     
 }
